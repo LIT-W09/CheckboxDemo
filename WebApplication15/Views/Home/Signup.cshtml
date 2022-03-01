@@ -1,0 +1,24 @@
+﻿<div style="height: 70vh;" class="row justify-content-center align-items-center">
+    <div class="col-md-6 jumbotron">
+        <h1>Signup!</h1>
+        <form method="post" action="/home/signup">
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input id="name" type="text" class="form-control form-control-lg" placeholder="Name" name="name" />
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input id="age" type="text" class="form-control form-control-lg" placeholder="Age" name="age" />
+            </div>
+
+            <div class="form-group">
+                <label for="newsletter">Signup to Newsletter</label>
+                <input id="newsletter" value="true" type="checkbox" class="form-control form-control-lg" name="SignupToNewsletter" />
+            </div>
+            <button id="save-button" disabled class="btn btn-primary btn-block">
+                <span class="oi oi-heart"></span>
+            </button>
+        </form>
+    </div>
+</div>
